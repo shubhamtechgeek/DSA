@@ -2,7 +2,7 @@ Dynamic Programming
 
 |                     Dynamic Programming                     | Checklist  | 
 |:-----------------------------------------------------------:|:----------:| 
-|                       Climbing Stairs                       | - [ ] Done | 
+|                       Climbing Stairs                       | - [X] Done | 
 |                        Counting Bits                        | - [ ] Done | 
 |                        House Robber                         | - [ ] Done | 
 |                       House Robber II                       | - [ ] Done | 
