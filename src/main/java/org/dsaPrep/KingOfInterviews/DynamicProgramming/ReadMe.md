@@ -1,6 +1,5 @@
 Dynamic Programming
 
-<<<<<<< HEAD
 - [ ] Climbing Stairs                        
 - [ ] Counting Bits                                                  
 - [ ] House Robber                                                    
