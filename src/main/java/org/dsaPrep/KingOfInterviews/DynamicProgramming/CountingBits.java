@@ -11,6 +11,7 @@ public class CountingBits {
     private static int counter = 0;
 
     //method 1 :: recursive without dp
+    // Time :: O(N), Space :: O(N)
     private static int countingBits1(int num){
 
         if(num == 1){
@@ -27,6 +28,7 @@ public class CountingBits {
     }
 
     //method 2 :: iterative with dp
+    // Time :: O(N), Space :: O(N)
     private static int countingBits2(int num){
 
         int[] dp = new int[num+1];
