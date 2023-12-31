@@ -1,7 +1,7 @@
 Dynamic Programming
 
-- [ ] Climbing Stairs                        
-- [ ] Counting Bits                                                  
+- [X] Climbing Stairs -> 31st Dec, 2023                       
+- [X] Counting Bits -> 31st Dec, 2023                                                 
 - [ ] House Robber                                                    
 - [ ] House Robber II                                                 
 - [ ] Coin Change                                                    
