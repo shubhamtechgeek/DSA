@@ -2,14 +2,14 @@ Dynamic Programming
 
 - [X] Climbing Stairs -> 31st Dec, 2023                       
 - [X] Counting Bits -> 31st Dec, 2023                                                 
-- [ ] House Robber                                                    
-- [ ] House Robber II                                                 
+- [X] House Robber -> 1st Jan, 2024                                                 
+- [X] House Robber II -> 1st Jan, 2024                                                 
 - [ ] Coin Change                                                    
 - [ ] Decode Ways                                                    
 - [ ] Maximum Subarray                                                
 - [ ] Maximum Product Subarray   
 - [ ] Combination Sum IV
-- [ ] Best Time to Buy and Sell Stock With Cooldown
+- [ ] Best Time to Buy and Sell Stock With Cool down
 - [ ] Unique Paths                                              
 - [ ] Longest Increasing Subsequence                  
 - [ ] Longest Palindromic Substring                                                    
