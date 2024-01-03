@@ -4,7 +4,7 @@ Dynamic Programming
 - [X] Counting Bits -> 31st Dec, 2023                                                 
 - [X] House Robber -> 1st Jan, 2024                                                 
 - [X] House Robber II -> 1st Jan, 2024                                                 
-- [ ] Coin Change                                                    
+- [X] Coin Change                                                    
 - [ ] Decode Ways                                                    
 - [ ] Maximum Subarray                                                
 - [ ] Maximum Product Subarray   
