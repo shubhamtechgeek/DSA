@@ -22,6 +22,8 @@ public class CoinChange {
     //dp[10] = 2, dp[1] = 1 total needed is 3 for dp[11] as .
 
     //method1
+    //Time:: O(coins.length)(amount), Space:: O(amount)
+    //considering all coins less than the currentAmount
     private static int coinChange(int[] coins, int amount) {
         int[] dp = new int [amount+1];
         Arrays.fill(dp, amount + 1);
@@ -37,6 +39,8 @@ public class CoinChange {
 
 
     //method2
+    //Time:: O(amount*coins), Space:: O(amount*coin)
+    //deciding whether to skip or pick a coin incase currentAmount greater than the coin value
     private static int coinChange1(int[] coins, int amount){
         int[][] dp = new int[coins.length+1][amount+1];
 
@@ -57,10 +61,54 @@ public class CoinChange {
         return dp[coins.length][amount] > amount ? -1 : dp[coins.length][amount];
     }
 
+
+    //method3
+    //recursive approach
+    //easy to understand approach
+    private static int coinChange2(int[] coins, int amount){
+        int[] dp = new int[amount+1];
+
+        Arrays.fill(dp, amount+1);
+
+        return coinChange2(coins, amount, dp);
+    }
+
+    private static int coinChange2(int[] coins, int amount, int[] dp){
+
+        if(amount < 0){
+            return -1;
+        }
+
+        if(dp[amount] < amount){
+            return dp[amount];
+        }
+
+        if(amount == 0){
+            return 0;
+        }
+
+        int min = -1;
+
+        for(int coin : coins){
+            int remainingAmount = amount - coin;
+            int remainingQuantity = coinChange2(coins, remainingAmount, dp);
+            if(remainingQuantity != -1){
+                int totalQuantity = remainingQuantity + 1;
+                if(min == -1 || totalQuantity < min){
+                    min = totalQuantity;
+                }
+            }
+        }
+
+        dp[amount] = min;
+        return min;
+
+    }
+
     public static void main(String[] args) {
 
         int[] coins = {2,5,10,14};
-        int amount = 27;
+        int amount = 1;
 
         int minPossibleCoinsNeeded = coinChange1(coins, amount);
 

@@ -17,6 +17,7 @@ import java.util.Map;
 public class HouseRobber {
 
     //recursive
+    //Time:: O(N), Space:: O(N)
     private static int houseRobbed(int[] num, int counter) {
 
         if(num.length <= counter){
@@ -26,6 +27,7 @@ public class HouseRobber {
     }
 
     //iterative method1
+    //Time:: O(N), Space:: O(1)
     private static int houseRobbed(int[] num){
 
 
@@ -42,6 +44,7 @@ public class HouseRobber {
     }
 
     //iterative method2:: dp
+    //Time:: O(N), Space:: O(N)
     private static int houseRobbed1(int[] num){
         int[] dp = new int[num.length + 1];
 

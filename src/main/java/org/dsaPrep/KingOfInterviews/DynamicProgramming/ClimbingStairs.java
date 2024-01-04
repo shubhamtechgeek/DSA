@@ -14,7 +14,7 @@ public class ClimbingStairs {
 
 
     //method 1 = pure recursion
-    // Time :: O(N^2), Space :: O(N)
+    // Time :: O(2^N), Space :: O(N)
 
     //Either take 1 step or take 2 step
     private static int climbStairs1(int top) {
