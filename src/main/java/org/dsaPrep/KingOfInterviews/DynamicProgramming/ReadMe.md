@@ -6,7 +6,7 @@ Dynamic Programming
 - [X] House Robber II -> 1st Jan, 2024                                                 
 - [X] Coin Change -> 3rd Jan, 2024                                                   
 - [X] Decode Ways -> 5th Jan, 2024                                                   
-- [ ] Maximum Subarray                                                
+- [X] Maximum Subarray -> 9th Jan, 2024                                               
 - [ ] Maximum Product Subarray   
 - [ ] Combination Sum IV
 - [ ] Best Time to Buy and Sell Stock With Cool down
