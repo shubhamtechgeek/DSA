@@ -8,7 +8,7 @@ Dynamic Programming
 - [X] Decode Ways -> 5th Jan, 2024                                                   
 - [X] Maximum Subarray -> 9th Jan, 2024                                               
 - [X] Maximum Product Subarray -> 10th Jan, 2024
-- [X] Combination Sum IV
+- [] Combination Sum IV
 - [ ] Best Time to Buy and Sell Stock With Cool down
 - [ ] Unique Paths                                              
 - [ ] Longest Increasing Subsequence                  
