@@ -21,8 +21,8 @@ public class MaximumSubarraySum {
     private static int findMaxSum(int[] nums) {
         int maxSum = Integer.MIN_VALUE; int sum = 0;
 
-        for (int i = 0; i < nums.length; i++) {
-            sum = Math.max(nums[i], nums[i]+sum);
+        for (int num : nums) {
+            sum = Math.max(num, num + sum);
             maxSum = Math.max(maxSum, sum);
         }
 
