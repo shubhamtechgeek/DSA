@@ -16,6 +16,10 @@ public class CountingBits {
 
     private static int countingBits1(int num){
 
+        if(num == 0){
+            return 0;
+        }
+
         if(num == 1){
             return ++counter;
         }
@@ -33,6 +37,10 @@ public class CountingBits {
     // Time :: O(N), Space :: O(N)
     private static int countingBits2(int num){
 
+        if(num == 0){
+            return 0;
+        }
+
         int[] dp = new int[num+1];
 
         dp[0] = 0;
@@ -48,7 +56,7 @@ public class CountingBits {
 
     public static void main(String[] args) {
 
-        int num = 15777707;
+        int num = 8;
 
         int result1 = countingBits1(num);
         int result2 = countingBits2(num);
